@@ -1,0 +1,67 @@
+{
+ "version": 1,
+ "source": "Contractor Loan PRO (Momnt) via Roofle RoofQuote PRO",
+ "plans": [
+  {
+   "id": "Pmt-200z",
+   "name": "PmtFactor 2.0%",
+   "type": "payment_factor",
+   "customerType": "payment-sensitive",
+   "featured": true,
+   "termMonthsLow": 65,
+   "termMonthsHigh": 98,
+   "aprLow": 6.99,
+   "aprHigh": 17.99,
+   "paymentFactorPct": 2.0
+  },
+  {
+   "id": "FR-0999-07",
+   "name": "7y 9.99%",
+   "type": "fixed_rate",
+   "customerType": "rate-sensitive",
+   "featured": true,
+   "termMonthsLow": 84,
+   "termMonthsHigh": 84,
+   "aprLow": 9.99,
+   "aprHigh": 9.99
+  },
+  {
+   "id": "PD-NN-12-07y",
+   "name": "12m No/No 84 am",
+   "type": "promo_12mo_no_interest_no_payment",
+   "customerType": "promotion-motivated",
+   "featured": true,
+   "termMonthsLow": 96,
+   "termMonthsHigh": 96,
+   "amortizationMonths": 84,
+   "promoMonths": 12,
+   "aprLow": 17.99,
+   "aprHigh": 17.99
+  },
+  {
+   "id": "PD-NY-12-07z",
+   "name": "12m No/Yes 84 am",
+   "type": "promo_12mo_no_interest_with_payments",
+   "customerType": null,
+   "featured": false,
+   "termMonthsLow": 96,
+   "termMonthsHigh": 96,
+   "amortizationMonths": 84,
+   "promoMonths": 12,
+   "aprLow": 17.99,
+   "aprHigh": 17.99
+  },
+  {
+   "id": "FR-RBP-10z",
+   "name": "10y RBP",
+   "type": "rate_based_pricing",
+   "customerType": null,
+   "featured": false,
+   "termMonthsLow": 120,
+   "termMonthsHigh": 120,
+   "aprLow": 9.99,
+   "aprHigh": 17.99
+  }
+ ],
+ "note": "Public plan config for FieldCode. Merchant fees intentionally omitted (internal cost data); the app backfills them from its bundled copy."
+}
