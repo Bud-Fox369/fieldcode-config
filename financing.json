@@ -1,67 +1,48 @@
 {
- "version": 1,
- "source": "Contractor Loan PRO (Momnt) via Roofle RoofQuote PRO",
+ "version": 2,
+ "source": "Sunlight Financial",
  "plans": [
   {
-   "id": "Pmt-200z",
-   "name": "PmtFactor 2.0%",
-   "type": "payment_factor",
-   "customerType": "payment-sensitive",
+   "id": "sunlight-fixed-144-899",
+   "name": "144m 8.99%",
+   "type": "fixed_rate",
    "featured": true,
-   "termMonthsLow": 65,
-   "termMonthsHigh": 98,
-   "aprLow": 6.99,
-   "aprHigh": 17.99,
-   "paymentFactorPct": 2.0
+   "termMonthsLow": 144,
+   "termMonthsHigh": 144,
+   "aprLow": 8.99,
+   "aprHigh": 8.99,
+   "paymentFactorPct": 1.14,
+   "minLoan": 5000,
+   "customerLabel": "Payments as low as"
   },
   {
-   "id": "FR-0999-07",
-   "name": "7y 9.99%",
-   "type": "fixed_rate",
-   "customerType": "rate-sensitive",
+   "id": "sunlight-deferred-12-72",
+   "name": "12m No/No, then 72m 9.99%",
+   "type": "promo_12mo_no_interest_no_payment",
    "featured": true,
    "termMonthsLow": 84,
    "termMonthsHigh": 84,
+   "promoMonths": 12,
+   "amortizationMonths": 72,
    "aprLow": 9.99,
-   "aprHigh": 9.99
+   "aprHigh": 9.99,
+   "paymentFactorPct": 2.03,
+   "minLoan": 3500,
+   "customerLabel": "No payments, no interest for 12 months"
   },
   {
-   "id": "PD-NN-12-07y",
-   "name": "12m No/No 84 am",
-   "type": "promo_12mo_no_interest_no_payment",
-   "customerType": "promotion-motivated",
+   "id": "sunlight-nofee-144-1199",
+   "name": "144m 11.99% no fee",
+   "type": "fixed_rate",
    "featured": true,
-   "termMonthsLow": 96,
-   "termMonthsHigh": 96,
-   "amortizationMonths": 84,
-   "promoMonths": 12,
-   "aprLow": 17.99,
-   "aprHigh": 17.99
-  },
-  {
-   "id": "PD-NY-12-07z",
-   "name": "12m No/Yes 84 am",
-   "type": "promo_12mo_no_interest_with_payments",
-   "customerType": null,
-   "featured": false,
-   "termMonthsLow": 96,
-   "termMonthsHigh": 96,
-   "amortizationMonths": 84,
-   "promoMonths": 12,
-   "aprLow": 17.99,
-   "aprHigh": 17.99
-  },
-  {
-   "id": "FR-RBP-10z",
-   "name": "10y RBP",
-   "type": "rate_based_pricing",
-   "customerType": null,
-   "featured": false,
-   "termMonthsLow": 120,
-   "termMonthsHigh": 120,
-   "aprLow": 9.99,
-   "aprHigh": 17.99
+   "termMonthsLow": 144,
+   "termMonthsHigh": 144,
+   "aprLow": 11.99,
+   "aprHigh": 11.99,
+   "paymentFactorPct": 1.31,
+   "minLoan": 5000,
+   "customerLabel": "No-fee financing"
   }
  ],
- "note": "Public plan config for FieldCode. Merchant fees intentionally omitted (internal cost data); the app backfills them from its bundled copy."
+ "note": "Public plan config for FieldCode. Merchant fees and lender codes are intentionally omitted (internal); the app restores them from its bundled copy by plan id."
 }
