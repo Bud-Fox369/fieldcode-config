@@ -32,7 +32,7 @@
   },
   {
    "id": "sunlight-nofee-144-1199",
-   "name": "144m 11.99% no fee",
+   "name": "144m 11.99%",
    "type": "fixed_rate",
    "featured": true,
    "termMonthsLow": 144,
@@ -41,7 +41,7 @@
    "aprHigh": 11.99,
    "paymentFactorPct": 1.31,
    "minLoan": 5000,
-   "customerLabel": "No-fee financing"
+   "customerLabel": "Fixed rate"
   }
  ],
  "note": "Public plan config for FieldCode. Merchant fees and lender codes are intentionally omitted (internal); the app restores them from its bundled copy by plan id."
