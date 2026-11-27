@@ -17,8 +17,8 @@
   },
   {
    "id": "sunlight-deferred-12-72",
-   "name": "12m No/No, then 72m 9.99%",
-   "type": "promo_12mo_no_interest_no_payment",
+   "name": "12m deferred interest, no payments, then 72m 9.99%",
+   "type": "promo_12mo_deferred_interest_no_payment",
    "featured": true,
    "termMonthsLow": 84,
    "termMonthsHigh": 84,
@@ -28,7 +28,7 @@
    "aprHigh": 9.99,
    "paymentFactorPct": 2.03,
    "minLoan": 3500,
-   "customerLabel": "No payments, no interest for 12 months"
+   "customerLabel": "No payments for 12 months"
   },
   {
    "id": "sunlight-nofee-144-1199",
